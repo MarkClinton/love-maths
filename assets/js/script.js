@@ -52,6 +52,7 @@ function checkAnswer() {
     }
 
     runGame(calculatedAnswer[1]);
+    document.getElementById('answer-box').value = "";
 }
 
 /**
